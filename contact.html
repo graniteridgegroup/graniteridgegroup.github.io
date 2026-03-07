@@ -4,6 +4,7 @@
 
 <title>Contact — Granite Ridge Group</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
@@ -21,12 +22,14 @@ body{
 }
 
 .content{
-    width:500px;
+    width:90%;
+    max-width:500px;
     text-align:center;
 }
 
 .logo{
-    width:60%;
+    width:70%;
+    max-width:320px;
 }
 
 .divider{
@@ -48,6 +51,20 @@ footer{
     margin-top:30px;
     font-size:12px;
     color:#555;
+}
+
+
+@media (max-width:600px){
+
+body{
+    font-size:20px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
 }
 </style>
 
