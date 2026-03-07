@@ -4,6 +4,7 @@
 
 <title>Client Portal — Granite Ridge Group</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
@@ -21,13 +22,14 @@ body{
 }
 
 .content{
-    width:380px;
+    width:90%;
+    max-width:500px;
     text-align:center;
 }
 
 .logo{
-    width:60%;
-    margin-bottom:15px;
+    width:70%;
+    max-width:320px;
 }
 
 .divider{
@@ -85,6 +87,21 @@ nav a{
 nav a:hover{
     text-decoration:underline;
 }
+
+
+@media (max-width:600px){
+
+body{
+    font-size:20px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+}
+    
 </style>
 
 <script>
