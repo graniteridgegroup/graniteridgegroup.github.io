@@ -65,10 +65,10 @@ input{
 }
 
 button{
-    width:90%;
+    width:30%;
     padding:8px;
-    background:#072700;
-    color:#faf4f0;
+    background:#faf4f0;
+    color:#072700;
     border:none;
     cursor:pointer;
     font-family:inherit;
