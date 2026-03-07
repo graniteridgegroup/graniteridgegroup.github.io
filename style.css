@@ -67,8 +67,8 @@ input{
 button{
     width:100%;
     padding:8px;
-    background:#faf4f0;
-    color:#072700;
+    background:#072700;
+    color:#faf4f0;
     border:none;
     cursor:pointer;
     font-family:inherit;
